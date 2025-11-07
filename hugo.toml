@@ -98,7 +98,7 @@ summaryLength = 30
         { github = "https://github.com/rwgb" },
         { linkedin = "https://linkedin.com/in/ralphbrynard" },
         { youtube = "https://youtube.com/yourchannel" },
-        { email = "mailto:your.email@example.com" }
+        { email = "mailto:ralph.brynard@gmail.com" }
       ]
 
 [markup]
