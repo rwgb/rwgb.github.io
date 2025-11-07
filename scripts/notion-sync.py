@@ -12,7 +12,7 @@ from pathlib import Path
 # Configuration
 NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
 DATABASE_ID = os.environ.get('NOTION_DATABASE_ID')
-OUTPUT_DIR = 'content/posts'
+OUTPUT_DIR = '../content/posts'
 
 NOTION_API = 'https://api.notion.com/v1'
 HEADERS = {

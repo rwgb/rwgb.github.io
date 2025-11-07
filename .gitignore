@@ -26,3 +26,5 @@ Thumbs.db
 # Setup Scripts
 *setup-hugo-site.sh
 
+# Python Virtual Environments
+**.venv
