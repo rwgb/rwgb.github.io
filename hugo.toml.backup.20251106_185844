@@ -4,10 +4,8 @@ title = 'Ralph Brynard | Developer & Creator'
 theme = 'congo'
 
 enableRobotsTXT = true
+paginate = 10
 summaryLength = 30
-
-[pagination]
-  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -89,17 +87,18 @@ summaryLength = 30
       pageRef = "contact"
       weight = 40
 
-    [languages.en.params.author]
-      name = "Ralph Brynard"
-      image = "img/profile.jpg"
-      headline = "Developer & Content Creator"
-      bio = "Building innovative projects and sharing knowledge through code, writing, and video. Passionate about open source and helping others learn."
-      links = [
-        { github = "https://github.com/rwgb" },
-        { linkedin = "https://linkedin.com/in/ralphbrynard" },
-        { youtube = "https://youtube.com/yourchannel" },
-        { email = "mailto:your.email@example.com" }
-      ]
+[author]
+  name = "Ralph Brynard"
+  image = "img/profile.jpg"
+  headline = "Developer & Content Creator"
+  bio = "Building innovative projects and sharing knowledge through code, writing, and video. Passionate about open source and helping others learn."
+  links = [
+    { github = "https://github.com/rwgb" },
+    { linkedin = "https://linkedin.com/in/ralphbrynard" },
+    { youtube = "https://youtube.com/yourchannel" },
+    { email = "mailto:your.email@example.com" },
+    { link = { href = "https://buymeacoffee.com/rwgb", title = "Buy Me a Coffee" } }
+  ]
 
 [markup]
   [markup.goldmark]

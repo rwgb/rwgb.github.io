@@ -23,11 +23,12 @@ summaryLength = 30
   defaultAppearance = "dark"
   autoSwitchAppearance = true
   
+  # Enable emoji support
   enableEmoji = true
 
 [params.homepage]
   layout = "profile"
-  homepageImage = "img/profile.jpg"
+  homepageImage = "img/profile.jpg"  # Add your profile image to static/img/
   showRecent = true
   showRecentItems = 6
   cardView = true
@@ -62,6 +63,9 @@ summaryLength = 30
   showAppearanceSwitcher = true
   showScrollToTop = true
 
+[params.fathomAnalytics]
+  # site = "ABC12345"  # Add your analytics code if you want
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -95,10 +99,10 @@ summaryLength = 30
       headline = "Developer & Content Creator"
       bio = "Building innovative projects and sharing knowledge through code, writing, and video. Passionate about open source and helping others learn."
       links = [
-        { github = "https://github.com/rwgb" },
-        { linkedin = "https://linkedin.com/in/ralphbrynard" },
+        { github = "https://github.com/yourusername" },
         { youtube = "https://youtube.com/yourchannel" },
-        { email = "mailto:your.email@example.com" }
+        { email = "mailto:your.email@example.com" },
+        { link = "https://patreon.com/yourpage" }
       ]
 
 [markup]
