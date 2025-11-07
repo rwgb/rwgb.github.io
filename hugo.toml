@@ -14,8 +14,8 @@ theme = 'congo'
   name = "youtube"
   url = "https://youtube.com/yourchannel"
 [[params.socialIcons]]
-  name = "patreon"
-  url = "https://patreon.com/yourpage"
+  name = "buymeacoffee"
+  url = "https://buymeacoffee.com/rwgb"
 
 [menu]
   [[menu.main]]
