@@ -6,8 +6,6 @@ tags: ["hugo", "github-pages", "github-actions", "tutorial", "web-development"]
 categories: ["Tutorials", "Web Development"]
 draft: false
 ---
-# Write in Notion, Publish to GitHub Pages: The Ultimate Content Workflow
-
 **TL;DR**: Learn how to use Notion as your CMS for a Hugo/GitHub Pages website. Write in Notion's beautiful editor, hit publish, and watch your content automatically sync to your site. No manual exports, no copy-pasting, just pure automation magic.
 
 ---
