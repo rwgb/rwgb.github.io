@@ -21,6 +21,7 @@ Thumbs.db
 # Backup Files
 *.bak
 *.old
+**.backup.**
 
 # Setup Scripts
 *setup-hugo-site.sh
