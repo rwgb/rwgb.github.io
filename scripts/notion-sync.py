@@ -12,7 +12,11 @@ from pathlib import Path
 # Configuration
 NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
 DATABASE_ID = os.environ.get('NOTION_DATABASE_ID')
-OUTPUT_DIR = '../content/posts'
+
+# Get the directory where this script is located
+SCRIPT_DIR = Path(__file__).parent
+# OUTPUT_DIR is relative to the script directory
+OUTPUT_DIR = SCRIPT_DIR / '../content/posts'
 
 NOTION_API = 'https://api.notion.com/v1'
 HEADERS = {
