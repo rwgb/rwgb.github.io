@@ -189,6 +189,9 @@ def sync():
     pages = query_database()
     print(f'Found {len(pages)} published posts\n')
     
+    # Track synced files
+    synced_files = set()
+    
     for page in pages:
         try:
             # Extract properties
@@ -199,10 +202,21 @@ def sync():
             content = notion_to_markdown(blocks)
             
             # Create Hugo post
+            slug = properties['slug']
+            filename = f"{slug}.md"
+            synced_files.add(filename)
             create_hugo_post(page['id'], properties, content)
             
         except Exception as e:
             print(f'✗ Error processing {page["id"]}: {e}')
+    
+    # Remove posts that are no longer published
+    output_path = Path(OUTPUT_DIR)
+    if output_path.exists():
+        for existing_file in output_path.glob('*.md'):
+            if existing_file.name not in synced_files:
+                existing_file.unlink()
+                print(f'🗑️  Removed: {existing_file.name}')
     
     print(f'\n✅ Sync complete!')
 
