@@ -7,7 +7,10 @@ categories: ["Uncategorized"]
 draft: false
 ---
 
-### Introduction
+### 
+Introduction
+
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e3ec090-318c-4799-b781-4a29473b2c8f/ced86231-af74-479f-80dc-5eef83f898dc/building-a-personal-website.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662MXBYQNW%2F20251110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251110T211803Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEUaCXVzLXdlc3QtMiJGMEQCIFzMcDcJQuqFsF6p8MHh34A9In8SwjQkQmkFdMj%2FipG7AiAK1P%2BYTfvnSnXNRP2wm2%2FTC1GPepTEQaNldV4qnIC2pCr%2FAwgOEAAaDDYzNzQyMzE4MzgwNSIMSb1jE%2FG9ujgJg1xcKtwDZTQeO%2F5Zx6kx7%2FeageuUtVab7BRArFHnEZJoH3tQrl%2FoWHRP%2Br44R%2FH6Q8o6D2KUl1z%2F9jhXsQOUpQ1eiv9M6E0POpffiXtErKF1NYMZeSMJm2UhpgqDqyJANaDghjv6Gi%2FmPm6mGM0ruN4xqtKykZIj%2FLbHZLU4KkCv5yFK60ds03rXfZ2Dule9zvcGbHxDthaGS53fqyONuuHX1CQUKJ02uBTtG%2F0uqb6TsWTwY%2BSvsvIgOVeu9aMGfkyr7%2BHKIivHiQ%2BzxDMs5t%2FAgFtYCYBm%2BZcwgvomcxB178JYxAhxNagz8lqcZxdrupjF8BoQZGUtKQ%2BAi45TSxvDUaROWOdRH65XXMre1QPqTaCGWawbMI0gqYyFk0eoyBzIMt%2F4MadOpXXA%2BOqHBmi1%2BJVHFdkDaTN35FpKCby1FpRuz2KlMbOGjSoUsiNow11iKMVBwikyYim2rIUnj%2Fu%2Bc0NZz%2B8R0KFoCb8iy%2F4Koo84YuHsT3B21V%2B5zI12GE6bvW8HSYJkMypkruT9pAsz9Kq1aJPIb%2Fn76Og317cvy922z0DknCSWyrFH%2Bdg5c1Hww7nmkeqh8KMnuox4SPj1k2GprWfQPSbD0YkyRs0sSnxdlsOJNDA93WYO92r75u8w65%2FJyAY6pgEyCCKcncnzTQzY8tLOZvRo3ghR1Zylwq7Bog162ZfWzXiaRRkPLR8scxX00q8vO2OJNy%2BGUtfDA7f%2FZbs0k1%2FTAOYS0lK%2FZk0DIs9xbP9WoR%2B%2Bm3LWmarkbd2G3TwL5YaMWHBAtIEPoHcAYOe8LEKHSHCh3pIVoq2N2UCiNLYK9hbjQiDLxUwm8jdB%2FqHXRs2WwETGuYWoUiNTjU7Nqfx7MxkQzbBo&X-Amz-Signature=59df15807534a01adc4ac8d3ad32ebe3b0e5bb2014ca2521fdfb0c0b0845432a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 After wanting to create a personal website for a while, I finally took the plunge and built one using Hugo, the Congo theme, and GitHub Pages. The best part? It's completely free to host, lightning-fast, and automatically deploys whenever I push changes to my repository.
 
@@ -375,5 +378,3 @@ Total cost: **$0**
 1. **Submodules for themes**: Keep themes updatable
 
 1. **Test locally first**: Always run `hugo server` before pushing
-
-1. **Meaningful commit messages**: They show up in Actions logs
