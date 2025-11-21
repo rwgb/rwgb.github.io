@@ -1,14 +1,32 @@
 name: Sync Notion to Hugo
 
 on:
-  # Run every hour
+  # Run on schedule (configurable frequency)
   schedule:
+    # Default: Every hour at minute 0
+    # To change frequency, update the cron expression:
+    # - Every 30 min: '*/30 * * * *'
+    # - Every 2 hours: '0 */2 * * *'
+    # - Every 6 hours: '0 */6 * * *'
+    # - Daily at midnight: '0 0 * * *'
+    # - Every weekday at 9am: '0 9 * * 1-5'
     - cron: '0 * * * *'
   
-  # Allow manual trigger
+  # Allow manual trigger with options
   workflow_dispatch:
+    inputs:
+      verbose:
+        description: 'Enable verbose logging'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Dry run (preview changes without applying them)'
+        required: false
+        type: boolean
+        default: false
   
-  # Run when sync script changes
+  # Run when sync script or workflow changes
   push:
     paths:
       - 'scripts/notion-sync.py'
@@ -39,8 +57,23 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          VERBOSE: ${{ github.event.inputs.verbose || 'false' }}
         run: |
-          python scripts/notion-sync.py
+          # Build command with optional flags
+          CMD="python scripts/notion-sync.py"
+          
+          # Add verbose flag if enabled
+          if [ "${{ github.event.inputs.verbose }}" = "true" ]; then
+            CMD="$CMD --verbose"
+          fi
+          
+          # Add dry-run flag if enabled
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+          
+          echo "Running: $CMD"
+          $CMD
       
       - name: Commit changes
         run: |
