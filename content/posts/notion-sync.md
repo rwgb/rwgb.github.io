@@ -195,7 +195,7 @@ You should see a small badge appear showing the integration is connected.
 Open your database in full-page view and look at the URL:
 
 ```plain text
-https://www.notion.so/2a4cae697a1080aeba80d51b75251c50?pvs=94
+https://www.notion.so/GitHub-Sync-2a4cae697a1080aeba80d51b75251c50?pvs=94
 
 ```
 
