@@ -1,7 +1,7 @@
 ---
-title: "Write in Notion, Publish to GitHub Pages: The Ultimate Content Workflow"
+title: "Write in Notion, Publish to GitHub Pages: The Ultimate Content Workflow (Part 1)"
 date: 2025-11-07
-description: "How to setup Notion sync with GitHub Pages"
+description: "How to setup Notion sync with GitHub Pages (Part 1)"
 tags: ['hugo', 'github-pages', 'github-actions', 'tutorial', 'web-development']
 categories: ["Uncategorized"]
 draft: false
