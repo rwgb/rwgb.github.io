@@ -7,6 +7,8 @@ categories: ["Uncategorized"]
 draft: false
 ---
 
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e3ec090-318c-4799-b781-4a29473b2c8f/d389e5cc-1652-4095-afc8-bc6f33661856/9691f333-16af-4374-a0ee-44f1dab95d52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YHPQCEB7%2F20251121%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251121T203126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLXdlc3QtMiJGMEQCIDmBfj20%2B4RNg%2BC3e1OLtz1Pe9vmdIEHCqri6KzEPKSUAiBi7JX7jyCRpXDBDL2EZfVoU1UTdQF4LisTEt%2BkwTcoPyr%2FAwgVEAAaDDYzNzQyMzE4MzgwNSIMMDYe26%2FO3VD0rsxjKtwD5hnxT0rq64oRyAac%2B4X%2FIDod5NEb4bk26FMorSYJLxDDMUdNJeWf8Yb4UPVEogwoyp%2FkhDCBPChJDJykYHol3IAU%2BRhDG4Dk8A4B9sUHWhAlnJrDTl3%2Fly5LNbdg2bi9eWjt2VohZRbk5vVztwQa2R3e14UwxH0LJ4kv3I7SZEwB9eGPr1UZ6djb0k7uPqWx2EyuOCFWRAcjqCW%2F9CGlTxSQWFGLDNLTBVr%2F9BAY3o%2BovVbq01YA%2FYFKEornLkrQ1QE%2FjGnt6SyFkLzdVn%2BqHiPwJ%2Fxo8vyJPRZ5tF9q0SzPn39cSUQLx0rg3dbg0Zkb7I%2Ff%2F6CqJwglje1uRgOAuYwIS8iZM6Zkah67sni5fsIDSjWV6GpVVqP5fvPwKxc6GkOz3xXgtHpnXq8%2BGrWLfBPvGGZc10NwFbL57JGnocml6TEbypgFgCw1LqO6m6163UgMeiUuc%2BIjeX0uFW3TITFvS8TYDGIYi%2Bxggq6LUKqmpy58YuY2u0q6W%2F0yEo51Un5I%2Fa3zfANoSK0jCnehl%2FAZ7gdezG6WnWjtT5hdgS3VDG9b87j63o2hJJgkrCl32sEkiqWas%2FICy4Ng%2F4UNf0ZxhoH2NGovN5spwIO7jE6GY7fjaN7sweT1Xtkw7%2F6CyQY6pgFtquA3Rf2a6AxbJmB4Hgn1EBddso1SgvV7lESPf%2F5czOaJNsrRJwpn5oPUkpfOR5Cwq1V4Zu%2FMVX66mmVsFAuTdzwItPuBAus%2BEc%2FBwCRGOfuVYdABH0ezuPfXkz5Uir8oaDxLRWIXOoxBQP0YJtAK4jKwVuSFnXMesbokLETPto4lc7ZdpzqyBXijihQrY35Hq3xYGRz5gJk1HzRJk2G7AXaRDzqT&X-Amz-Signature=b7431352a0bc91f13fac4a3375de7a1ece60e4d281d2c62a0e8b7864e0372fc3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
 ### Part 3: Setting Up GitHub Secrets
 
 Let's store your Notion credentials securely in GitHub.
@@ -550,5 +552,3 @@ Here's what publishing looks like now:
 1. Hit "Published"
 
 1. Post is live within an hour
-
-#### For Scheduled Posts:

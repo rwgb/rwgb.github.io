@@ -7,6 +7,12 @@ categories: ["Uncategorized"]
 draft: false
 ---
 
+![Image]()
+
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e3ec090-318c-4799-b781-4a29473b2c8f/60aa9ac9-35f4-4664-aabb-818587404733/0864ca02-d51a-47cd-9b67-5280dd5ab85f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665P4TKTMZ%2F20251121%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251121T203129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEwaCXVzLXdlc3QtMiJIMEYCIQCbJtT2oYzNwjwkbiyZN6LOR0spoe%2FC82dkUXKHJVGe4QIhAKM03rNScWxdhRkuCbMazuNycreEod1rGq5fR9yBnboWKv8DCBUQABoMNjM3NDIzMTgzODA1IgwGQb02CQDSavwoaV4q3AMFeVnFVmaPkK2j4kx%2F0mwrxOWKJkveJkVcoyuwbv1Xp%2BLvMcg9eQfZxj%2FiUlgYiA0pcUzRYhP90ZZF3gqGMtHEXAy3rQqIBET4cUgdz0cvSTd99u7NVPCRk4HeUWjO7ql6YW25csW%2FIfIlMVTF6nrIjmRzKD8LYubfvcTy6WgAaXmaQTB3FeuaFrElZ4yDEoDVAiXbmaqYZJFm6eN48HbnvrzAcja5ukkcLQ6UN0DZnVuYE9CAFGa3AAKntKDPV2wXbNsQXpHoNGFQqkqeviBOi2EeBmvsLoJzqQJ21HLgdn1yL2GZ9O6ZruQCBEs7lGp%2Fvq3TPEXIZALK6pgjoYCnDuHYN5Ck9Nm7U%2FUBmsdfyGHIMUVHyLA871%2B%2BBkuoYO%2FNNMFUOhsXiE2ezRQAqGYPlbeHNNgjVvseX4b31Qm9I0iGUPO4LJ459OWq3pW3Gt8auxqdPxePDVfv7JbzPYTmK9c4UBSJYKOoG9mMzajUZ2OtJt6xRPkoootA4Lbdou9g4uzMjPvqu2h3j%2F7YufffOUuOm5nmzn1auOeSR13V3yK03GGkYLS%2BA5lC6GYdZiXSEhM5BFwwkw76%2F%2BZmn8dncONzZpRLp%2F7xD6yFN5K5kXg35U4MHdiHH97TZjDX%2FoLJBjqkAYL1DZPjDm7Zo6BVDKyzp32aaCDrcbM%2B8%2BQZ2LsmC4BBbTYwrLQJ44xZhaayK6SEqMwkj6u1THGZ%2FxfJv8k6DWmFVKEspgx4UlqZRPBvsJIb4PgSlwZJZts%2BLCKM3jwfpNdZZqam6x2uUaNOnwrVk2VQHKDUl%2BlL6CXPfpQqdATL8%2FcZu6o1uy5qV5eVbqZIjVP4vpI%2B9GNRr7KYWBduopvP916K&X-Amz-Signature=2ebc2f807197c3f5f6abf1232a6562af2596fcf9604b9333368006f3af0e48f9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
 **TL;DR**: Learn how to use Notion as your CMS for a Hugo/GitHub Pages website. Write in Notion's beautiful editor, hit publish, and watch your content automatically sync to your site. No manual exports, no copy-pasting, just pure automation magic.
 
 ### The Problem with Traditional Static Sites
@@ -205,9 +211,3 @@ The database ID is the 32-character code:
 2a4cae697a1080aeba80d51b75251c50
 
 ```
-
-Copy this—we'll need it next.
-
-### Part 3: Setting Up GitHub Secrets
-
-Let's store your Notion credentials securely in GitHub.
